@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/backgrnd.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.70;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+
+nav img {
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.main .centre_head {
+    font-family: 'martel sans', sans-serif;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    gap: 21px;
+
+}
+
+.centre_head> :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.centre_head> :nth-child(2) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.centre_head> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-down {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.btn-lang {
+    padding: 2px;
+    background-color: rgba(60, 56, 56, 0.2);
+    color: rgb(170, 165, 165);
+}
+
+.main input {
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+
+.btn-up {
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
