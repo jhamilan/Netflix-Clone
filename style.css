@@ -102,6 +102,7 @@ nav button {
 
 .main input {
     padding: 3px 24px;
+    color: white;
     font-size: 20px;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.2);
@@ -111,4 +112,99 @@ nav button {
     background-color: red;
     color: white;
     padding: 2px;
+}
+
+.main .first {
+    padding: 20px 150px;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center;  */
+    /* position: relative; */
+    gap: 50px;
+}
+
+.first span {
+    position: relative;
+}
+
+.first span h2 {
+    position: absolute;
+    left: -20px;
+    /* kyunki thora bahar ki trf h */
+    bottom: 9px;
+    /* neeche h */
+    font-size: 110px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 2px rgb(203, 203, 203);
+}
+
+.img {
+    border-radius: 6px;
+}
+
+.main .second {
+    padding: 10px 150px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.box_2 {
+    height: 280px;
+    width: 310px;
+    position: relative;
+    background-color: rgb(27, 30, 60);
+    border-radius: 10px;
+}
+
+.box_2 h2 {
+    padding: 25px 10px 10px 25px;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(255, 255, 255);
+}
+
+.box_2 p {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+}
+.box_2 img{
+position: absolute;
+bottom: 18px;
+right: 20px;
+height: 70px;
+width: 70px;
+}
+
+.main .third {
+    padding: 10px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.faq_box {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(50, 49, 49);
+}
+.faq_box .plus{
+   font-size: 65px;
+   color: white;
+   padding-right: 20px;
+}
+
+.faq_box h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 30px 15px;
 }
